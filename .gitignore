@@ -70,5 +70,10 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+
+### Manually added
 .idea
+mysite/jupy/static/assets/.jupyterlite.doit.db
+__pycache__/
+*.py[cod]
 
