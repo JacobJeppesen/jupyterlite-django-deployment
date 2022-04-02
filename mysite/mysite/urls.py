@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('', include('jupy.urls')),
+    path('', include('jupyterliteapp.urls')),
     path('admin/', admin.site.urls),
 ]

@@ -50,7 +50,7 @@ Your JupyterLite is structured like this:
               with or without a slash
         - some fields, such as `federated_extensions` will be _added together_
     -->
-    <script id="jupyter-config-data" type="application/json" data-jupyter-lite-root="/static/assets/jupydist/">
+    <script id="jupyter-config-data" type="application/json" data-jupyter-lite-root="/static/assets/jupyterlitedist/">
       {}
     </script>
     <!--
@@ -61,7 +61,7 @@ Your JupyterLite is structured like this:
       `.jupyter-lite/#jupyter-config-data`.
     -->
     <script type="module">
-      await import('/static/assets/jupydist/config-utils.js');
+      await import('/static/assets/jupyterlitedist/config-utils.js');
     </script>
     <!-- that's it, there shouldn't be anything below here in head! -->
   </head>

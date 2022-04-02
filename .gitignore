@@ -76,4 +76,5 @@ fabric.properties
 mysite/jupy/static/assets/.jupyterlite.doit.db
 __pycache__/
 *.py[cod]
+mysite/jupyterliteapp/static/assets/.jupyterlite.doit.db
 
