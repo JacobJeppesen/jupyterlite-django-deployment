@@ -1,4 +1,8 @@
+# Required for Django
 django==4.0.3
+whitenoise==6.0.0  # https://stackoverflow.com/a/71004889
+
+# Required for Jupyter Lite
 bqplot==0.12.33
 ipycanvas==0.9.1
 ipyleaflet==0.15.0
