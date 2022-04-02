@@ -7,7 +7,7 @@ This is a minimal deployment of JupyterLite with Django. It contains a Django ap
     │   └── settings.py             <- Settings for the Django project
     └── jupyterliteapp              
         ├── urls.py                 <- URL configuration for the JupyterLite app
-        ├── content                 <- Contents for the JupyterLite app
+        ├── contents                <- Contents for the JupyterLite app (i.e., sample noteoboks)
         └── static                  
             └── jupyter             <- The static files for the JupyterLite app
 ```
@@ -29,5 +29,5 @@ Run the following commands to rebuild the JupyterLite static files:
 
 ```bash
 cd mysite/jupyterliteapp
-jupyter lite build --output-dir static/jupyter --contents content && rm .jupyterlite.doit.db
+jupyter lite build --output-dir static/jupyter --contents contents && rm .jupyterlite.doit.db
 ```
