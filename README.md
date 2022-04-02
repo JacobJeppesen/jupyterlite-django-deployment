@@ -24,7 +24,7 @@ python mysite/manage.py collectstatic
 python mysite/manage.py runserver  
 ```
 
-Then open the browser and go to http://localhost:8000/static/jupyter/index.html. If it does not work, and you want to make sure Django is running properly, check that http://localhost:8000/admin/ works.
+Then open the browser and go to http://localhost:8000/public/jupyter/index.html. If it does not work, and you want to make sure Django is running properly, check that http://localhost:8000/admin/ works.
 
 ## Re-build the JupyterLite static files 
 Run the following commands to rebuild the JupyterLite static files:
