@@ -1,14 +1,12 @@
 # Minimal JupyterLite deployment with Django
-A minimal example of deploying Jupyter Lite with Django.
-
-The important paths in the projects are: 
+This is a minimal deployment of JupyterLite with Django. It contains a Django app, named `jupyterliteapp`, with examples and the static files needed to run JupyterLite. The URL to the collected static files in Django has been re-named to `public/`, such that the URL to JupyterLite is `/public/jupyter/index.html`. The important paths in the project are: 
 ```
 └── mysite                          
     ├── manage.py                   <- Django management script
     ├── mysite                      
     │   └── settings.py             <- Settings for the Django project
     └── jupyterliteapp              
-        ├── urls.py                 <- URL configuration for the Jupyter Lite app
+        ├── urls.py                 <- URL configuration for the JupyterLite app
         ├── content                 <- Contents for the JupyterLite app
         └── static                  
             └── jupyter             <- The static files for the JupyterLite app
