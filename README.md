@@ -29,5 +29,5 @@ Run the following commands to rebuild the JupyterLite static files:
 
 ```bash
 cd mysite/jupyterliteapp
-jupyter lite build --output-dir static/jupyter --contents contents && rm .jupyterlite.doit.db
+jupyter lite build --output-dir static/jupyter --contents contents
 ```
