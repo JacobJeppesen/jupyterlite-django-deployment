@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+
+def index(request):
+    message = "You're at the main page. Go to <a href='http://localhost:8000/public/jupyter/index.html'>" \
+              "http://localhost:8000/public/jupyter/index.html</a> to test JupyterLite."
+    return HttpResponse(message)
